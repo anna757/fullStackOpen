@@ -1,4 +1,4 @@
-::: mermaid
+``` mermaid
 flowchart TB
 
     id1[User writes note and clicks the save button]
@@ -8,4 +8,4 @@ flowchart TB
     id5[The server responds with 201 created - Note is created, no need for reloading the page]
 
     id1-->id2-->id3-->id4-->id5
-:::
+```
